@@ -14,7 +14,7 @@ public class OpenedClass extends Activity implements OnClickListener, OnCheckedC
 	TextView question, test;
 	Button returnData;
 	RadioGroup selectionList;
-	String gotBread;
+	String gotBread, setData;
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
 		// TODO Auto-generated method stub
@@ -46,13 +46,17 @@ public class OpenedClass extends Activity implements OnClickListener, OnCheckedC
 		// TODO Auto-generated method stub
 		switch(arg1){
 		case R.id.rGood:
+			setData = "GOOD";
 			break;
 		case R.id.rBad:
+			setData = "BAD";
 			break;
 		case R.id.rBoth:
+			setData = "GOOD and BAD";
 			break;
 		
 		}
+		test.setText(setData);
 	}
 	
 	
