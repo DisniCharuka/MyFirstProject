@@ -11,32 +11,27 @@
 
     <Button
         android:id="@+id/button1"
-        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_below="@+id/textView1"
+        android:layout_width="250dp"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="99dp" 
-        android:text="ADD" />
+        android:text="ADD ONE" />
     
      <Button
         android:id="@+id/button2"
-        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_below="@+id/button1"
+        android:layout_width="250dp"
         android:layout_centerHorizontal="true"
-        android:text="SUB" />
+        android:text="SUBTRACT ONE" />
     
-
     <TextView
         android:id="@+id/textView1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="61dp"
-        android:text="Total is" />
-
-
-   
-
+        android:text="Total is"
+        android:layout_gravity="center" 
+        />
 </RelativeLayout>

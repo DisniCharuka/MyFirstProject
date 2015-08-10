@@ -22,7 +22,7 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-          <activity
+        <activity
             android:name=".MainActivity"
             android:label="@string/app_name" >
             <intent-filter>
@@ -40,24 +40,63 @@
                 <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
         </activity>
-         <activity
+        <activity
             android:name=".TextPlay"
             android:label="@string/app_name" >
         </activity>
-         <activity
+        <activity
             android:name=".Data"
             android:label="@string/app_name" >
             <intent-filter>
-                <action android:name="com.example.myfirstproject.DATA" />
+                <action android:name="com.example.myfirstproject.Data" />
 
                 <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
         </activity>
-         <activity
+        <activity
             android:name=".OpenedClass"
             android:label="@string/app_name" >
             <intent-filter>
                 <action android:name="com.example.myfirstproject.OpenedClass" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".AboutUs"
+            android:label="@string/app_name"
+            android:theme="@android:style/Theme.Dialog" >
+            <intent-filter>
+                <action android:name="com.example.myfirstproject.AboutUs" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Prefs"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.example.myfirstproject.Prefs" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        
+         <activity
+            android:name=".Spinners"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.example.myfirstproject.Spinners" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        
+          <activity
+            android:name=".Spinners2"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="com.example.myfirstproject.Spinners2" />
 
                 <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
